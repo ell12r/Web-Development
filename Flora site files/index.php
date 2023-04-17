@@ -1,0 +1,401 @@
+<?php
+// We need to use sessions, so you should always start sessions using the below code.
+session_start();
+// If the user is not logged in redirect to the login page...
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: index.html');
+	exit;
+}
+?>
+
+
+
+<!DOCTYPE html>
+<html  >
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.7.8, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/mbr-121x68.jpg" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>Home</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/parallax/jarallax.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+
+  
+  
+  
+</head>
+<body>
+  
+  <section data-bs-version="5.1" class="menu cid-s48OLK6784" once="menu" id="menu1-h">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="mailto:floraschoolgh148@gmail.com">
+                        <img src="assets/images/mbr-121x68.jpg" alt="School Logo" style="height: 3.8rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">Flora School</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown nav-right" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="mailto:floraschoolgh148@gmail.com"><span class="socicon socicon-mail mbr-iconfont mbr-iconfont-btn"></span>Mail Us</a></li>
+                <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="Accounts.html"><span class="mobi-mbri mobi-mbri-user mbr-iconfont"></span>Login</a></li>
+                    <li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="page3.html"><span class="mobi-mbri mobi-mbri-alert mbr-iconfont mbr-iconfont-btn"></span>News Letter</a></li></ul>
+                
+                
+            </div>
+        </div>
+    </nav>
+
+</section>
+
+<section data-bs-version="5.1" class="header1 cid-s48MCQYojq mbr-fullscreen mbr-parallax-background" id="header1-f">
+
+    
+
+    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
+
+    <div class="align-center container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8">
+                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Flora School</strong></h1>
+                
+                <p class="mbr-text mbr-fonts-style display-7">This is an educational institution located at Broadcasting near AF electricals off the Mallam Kasoa highway. The school provide quality education at an affordable fee. the school has two Busses which convey student from their various homes to the school and vice versa.<br>Admission is in progress, Enroll your ward now for quality and affordable education</p>
+                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="tel:+233276651344"><span class="mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn"></span>call now&nbsp;</a> <a class="btn btn-success-outline display-4" href="SchoolGallery.html#video1-d">Browse Website &gt;</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="features13 cid-ttlfGsvu6p" id="features14-n">
+    
+
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="mbr-section-title align-center mb-4 mbr-fonts-style display-2"><strong>What you get</strong></h3>
+            </div>
+            <div class="card col-12 col-md-4 col-lg-2 p-3">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="SchoolGallery.html"><span class="mbr-iconfont mobi-mbri-image-gallery mobi-mbri"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>School Gallery</strong><br><strong><br></strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-4 col-lg-2">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="loginindex.html"><span class="mbr-iconfont mbri-calendar"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Academic calender</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-4 col-lg-2">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="Articles.html"><span class="mbr-iconfont mobi-mbri-contact-form mobi-mbri"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Articles</strong>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-4 col-lg-2">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="UpcomingEvents.html"><span class="mbr-iconfont mobi-mbri-alert mobi-mbri"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Upcoming Events</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-4 col-lg-2">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="PayFees.html"><span class="mbr-iconfont mobi-mbri-cash mobi-mbri"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7"><strong>Pay Fees</strong></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-3 col-12 col-md-4 col-lg-2">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <a href="SchoolApp.html"><span class="mbr-iconfont mobi-mbri-devices mobi-mbri"></span></a>
+                        <h4 class="card-title align-center mbr-black mbr-fonts-style display-7">
+                            <strong>Mobile-friendly School app</strong></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="content14 cid-ttlfRWKQay" id="content14-o">
+    
+
+    
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-4 display-5">
+                        <strong>Frequently asked questions</strong>
+                    </h3>
+                <ul class="list mbr-fonts-style display-7">
+                    <li><strong>How to use the school app?</strong><br>Navigate to the <a href="page5.html" class="text-primary" target="_blank">School App</a> page and download the preferred file (android or Windows). Install the app on your device. Use the fees tab to know your outstanding fees and make payments. You can pay daily feeding fee using the app by opening the canteen dialog and then choosing feeding fee.</li>
+                    <li><strong>How to get logins for the school app?</strong><br>Send an email to the <a href="mailto:elliottransford2@gmail.com" class="text-primary">IT Department</a> containing Your name, the name of your ward(s) and the latest reciept of fees paid. A link will be sent to you, create your username and Password using the link. You can now login to your school app with the information you signed up with. Visit the school for any assistance&nbsp;</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="image1 cid-ttlmJtRMbg" id="image1-11">
+    
+
+    
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/4.jpg" alt="Students at lab">
+                    <p class="mbr-description mbr-fonts-style pt-2 align-center display-4">
+                    Students at the Science laboratory</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Admission In Progress</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7"></p><p>
+                        The school's admission is still in progress, enroll your ward now for better and quality education.<br>The school has a computer laboratory and Science Laboratory where I.C.T&nbsp; and Science practicals would be undertaken respectively. The school also has a well ventilated canteen which provides student with comfort anytime they have meals. The most beautiful part of it is that the school feed students twice a day(Breakfast and Lunch) at an affordable fee.<br><br><a href="tel:+233241082742" class="text-primary">CALL US NOW</a>&nbsp; &nbsp; &nbsp; &nbsp;OR&nbsp; &nbsp; &nbsp; <a href="https://wa.me/233276651344" class="text-primary">WHATSAPP ADMIN</a></p><p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="testimonials2 cid-ttlmUrfo1c" id="testimonials2-12">
+    
+    
+    
+    
+    <div class="container">
+        <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2">
+            <strong>Testimonials</strong>
+        </h3>
+        <div class="row justify-content-center">
+            <div class="card col-12 col-md-6">
+                <p class="mbr-text mbr-fonts-style mb-4 display-7">Flora School is the Best, I Enrolled my ward last two years and i can see a lot of improvement. I say a Big thank you to the teachers at Flora.</p>
+                <div class="d-flex mb-md-0 mb-4">
+                    <div class="image-wrapper">
+                        <img src="assets/images/background13.jpg" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="text-wrapper">
+                        <p class="name mbr-fonts-style mb-1 display-4"><strong>Mabel Anku</strong></p>
+                        <p class="position mbr-fonts-style display-4"><strong>Parent</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-md-6">
+                <p class="mbr-text mbr-fonts-style mb-4 display-7">Wow one of the best schools I've taken my children to. Although they don't have the perfect facilities, They teach very well and my first born passed the BECE exams with a good grade. Keep doing the good work.</p>
+                <div class="d-flex mb-md-0 mb-4">
+                    <div class="image-wrapper">
+                        <img src="assets/images/team2.jpg" alt="Mobirise Website Builder">
+                    </div>
+                    <div class="text-wrapper">
+                        <p class="name mbr-fonts-style mb-1 display-4">
+                            <strong>Jessica Brown</strong>
+                        </p>
+                        <p class="position mbr-fonts-style display-4"><strong>Parent</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="contacts1 cid-ttln1r5l0Y" id="contacts1-13">
+
+    
+
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Contacts</strong>
+            </h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">Lets get in touch</h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <div class="image-wrapper">
+                            <span class="mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
+                        </div>
+                        <h4 class="card-title mbr-fonts-style mb-2 display-2">
+                            <strong>Email</strong>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style mb-2 display-4">
+                            We will reply as soon as possible</p>
+                        <h5 class="link mbr-fonts-style display-7"><a href="mailto:floraschoolgh148@gmail.com" class="text-primary">Send us an
+                                email</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-6">
+                <div class="card-wrapper">
+                    <div class="card-box align-center">
+                        <div class="image-wrapper">
+                            <span class="mbr-iconfont mobi-mbri-mobile-2 mobi-mbri"></span>
+                        </div>
+                        <h4 class="card-title mbr-fonts-style align-center mb-2 display-2">
+                            <strong>Phone</strong>
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style mb-2 display-4">
+                            Mon - Fri 06:00 - 16:00</p>
+                        <h5 class="link mbr-black mbr-fonts-style display-7">
+                            <a href="tel:.+233241082742" class="text-primary">Call&nbsp;us on</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="form9 cid-ttln99XyHT" id="form9-14">
+    
+    
+    <div class="container">
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Subscribe to us</strong>
+            </h3>
+            
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="E0HRSqS5XXJDKNRtsvtzijD+nP8n/EvykD0icG0TM7yTq9lNinfzjxF+jyN7i978N6eFTrWV2qL+WMwvyk4uuqprnfphTOHe5JB528YuRr88QIhQqUcdfTPzSLkPaG4l">
+                    <div class="row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for Subscribing to our news letter!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-lg-12">
+                            <p class="mbr-text mbr-fonts-style align-center mb-4 display-7"> Exclusive offers in your inbox</p>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 form-group mb-3" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form9-14">
+                        </div>
+                        <div data-for="email" class="col-lg-4 col-md-12 col-sm-12 form-group mb-3">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form9-14">
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center"><button type="submit" class="btn btn-primary display-4">Submit</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section data-bs-version="5.1" class="footer4 cid-ttlcdYARWW" once="footers" id="footer4-l">
+
+    
+
+    
+    
+    <div class="container">
+        <div class="row mbr-white">
+            <div class="col-6 col-lg-3">
+                <div class="media-wrap col-md-8 col-12">
+                    <a href="page1.html" target="_blank">
+                        <img src="assets/images/logo.png" alt="flora School">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
+                    <strong>About</strong>
+                </h5>
+                <p class="mbr-text mbr-fonts-style mb-4 display-4">
+                    Flora school is an educational institution established in the year 2008 and located at Broadcasting off the Mallam-Kasoa highway</p>
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-3 display-7">
+                    <strong>Follow Us</strong>
+                </h5>
+                <div class="social-row display-7">
+                    <div class="soc-item">
+                        <a href="https://facebook.com/floraschoolgh_" target="_blank">
+                            <span class="mbr-iconfont socicon-facebook socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://twitter.com/floraschoolgh_" target="_blank">
+                            <span class="mbr-iconfont socicon-twitter socicon"></span>
+                        </a>
+                    </div>
+                    <div class="soc-item">
+                        <a href="https://instagram.com/floraschoolgh_" target="_blank">
+                            <span class="mbr-iconfont socicon-instagram socicon"></span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Help center</strong><br></h5>
+                <ul class="list mbr-fonts-style display-4"><p>email us:&nbsp; &nbsp; <span style="font-size: 1.1rem;">floraschoolgh148@gmail.com</span></p><p><br></p></ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"><strong>Download</strong></h5>
+                <ul class="list mbr-fonts-style display-4">
+                    <li class="mbr-text item-wrap">School App</li><li class="mbr-text item-wrap"><br></li>
+                </ul>
+            </div>
+            <div class="col-12 mt-4">
+                <p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-7">
+                    © Copyright 2023 elStudios - All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </div>
+</section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/parallax/jarallax.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+  
+  
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden">
+  </body>
+</html>
