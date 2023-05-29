@@ -1,23 +1,101 @@
-<!Doctype html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
+        <link rel="stylesheet" href="noteStyle.css">
         <title>MyNotes -Udacity</title>
+   </head>
     <body>
         <h1>This is my notes for the udacity webdev course</h1>
-<li>
-    <br><ul>Markup is simply tests that has a special meaning</ul>
-    <ul><em>Thank you Udacity!, I'm already lovin' the course</em></ul>
-</li>
+<ol>
+    <br><li>Markup is simply tests that has a special meaning</li>
+    <li><em>Thank you Udacity!, I'm already lovin' the course</em></li>
+</ol>
     <div>
         <h4>this is my version of a poem using whitespace</h4>
         <i>Mary Had a Little lamb</i>
         <br>Mary had a little lamb
         <br><b>I forgot the lyrics tho lol.</b>
     </div>
-<div class ="Main notes">
+<div class ="MainNotes">
     <br>
     <br>
 <p>This is how to add a paragraph, <mark>Use the 'P' tag</mark>.</p>
 </div>
+<section class="VariousHeadings">
+    <h1>My HTML Notes</h1>This page is a collection of my awesome notes about html!<br>
+    <h2>The Web</h2>The web (or world wide web)is a collection of documents and other files.<br>
+    <h2>What is HTML</h2>HTML stands for <em>hypertext markup language</em>. it is used to define the structure or layout of a page.<br>
+</section>
+<div class="textFormatting">
+    <h1>My chemistry Notes</h1>
+    <strong>Molecular name:</strong><em> Sulfur hexafluoride</em><br>
+    <strong>Molecular formula:</strong>SF<sub>6</sub>
+</div>
+<div class="lists">
+    <ol>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>LEarn Python</li>
+        <li>Save the world</li>
+    </ol> <br>
+    <ul>
+        <li>Learn HTML</li>
+        <li>Learn CSS</li>
+        <li>LEarn Python</li>
+        <li>Save the world</li>
+    </ul>
+    <ul>
+        <li>Udacity Courses are: </li>
+            <ol>
+                <li>the best</li>
+                <li>Easy to understand</li>
+                <li>Very detailing and comprehensive</li>
+            </ol>
+        <li>So join me and lets learn together:</li>
+            <ol>
+                <li>Create an account</li>
+                <li>Verify your account</li>
+                <li>and lastly pay for the course that interests you </li>
+            </ol>
+    </ul>
+    <img src="data:image/png;base64,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" alt="udacity Logo">
+    <a href="www.google.com">Text</a>
+</div>
+<section>
+   
+        <p class="newbox">this is a box</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi sit amet mauris commodo. Vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. Volutpat est velit egestas dui id ornare arcu. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Et malesuada fames ac turpis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Sed risus ultricies tristique nulla. At auctor urna nunc id. Pharetra convallis posuere morbi leo. Quam quisque id diam vel quam elementum pulvinar etiam. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Amet risus nullam eget felis eget nunc lobortis.</p>
+        <p class="mybox">Another box wow</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi sit amet mauris commodo. Vitae elementum curabitur vitae nunc sed velit dignissim sodales ut. Volutpat est velit egestas dui id ornare arcu. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Porttitor lacus luctus accumsan tortor posuere ac ut consequat. Et malesuada fames ac turpis. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Sed risus ultricies tristique nulla. At auctor urna nunc id. Pharetra convallis posuere morbi leo. Quam quisque id diam vel quam elementum pulvinar etiam. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Amet risus nullam eget felis eget nunc lobortis.</p>
+        <div class="container">
+            <div class="box red"></div>
+            <div class="box black"></div>
+            <div class="box black"></div>
+            <div class="box red"></div>
+          </div>
+</section>
+                <div class="firstRow fonts">
+                        
+                    <div class="box1">X</div>
+                    <div class="box2"></div>
+                    <div class="box3">O</div>
+                        
+                </div>
+                <div class="secRow fonts">
+                        
+                    <div class="abox1"></div>
+                    <div class="abox2">X</div>
+                    <div class="abox3">O</div>
+                        
+                </div>
+                <div class="lastRow fonts">
+                        
+                    <div class="bbox1">X</div>
+                    <div class="bbox2">O</div>
+                    <div class="bbox3"></div>
+                        
+                </div>
+               
+
     </body>
-</head>
 </html>

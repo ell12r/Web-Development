@@ -1,0 +1,55 @@
+/*This CSS was individually built by me
+Feel free to contact me if you want me to do similar for you
+*/
+
+.headerComponents{
+   background-color: aqua;
+   border-color: blueviolet;
+   border-style: groove;
+   block-size: 43px;
+   position: relative;
+}
+
+#me{
+    
+    padding-left: 0.5%;
+    width: 30px;
+   
+}
+
+#about{
+    padding-left: 70%;
+    color: blueviolet;
+
+}
+
+#socials{
+    padding-left: 1%;
+    color: blueviolet;
+}
+#projects{
+    padding-left: 1%;
+    color: blueviolet;
+}
+
+#homeTitle{
+    padding-top: 2%;
+    text-align: center;
+    text-decoration-color: aqua;
+    background-color: ghostwhite;
+    background-size: 7%;
+    
+   
+}
+
+.home{
+    position: fixed;
+    border-color: blueviolet;
+    border-style: dotted;
+    background-color: burlywood;
+    
+}
+
+.footer{
+    margin-top: 90%;
+}

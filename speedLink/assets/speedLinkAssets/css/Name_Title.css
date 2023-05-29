@@ -1,0 +1,114 @@
+#coverArt{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+#spotify{
+    margin-left: 20%;
+    width: 20%
+    
+}
+.spotify{
+    display: flex;
+    border-color: green;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+#boomplay{
+    margin-left: 20%;
+    width: 20%
+}
+.boomplay{
+    display: flex;
+    border-color: black;
+    border-top-color: green;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+#youtubeMusic{
+    margin-left: 20%;
+    width: 20%
+
+}
+.youtubeMusic{
+    display: flex;
+    border-color: red;
+    border-top-color: black;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+#AppleMusic{
+    margin-left: 20%;
+    width: 20%
+}
+.AppleMusic{
+    display: flex;
+    border-color: pink;
+    border-top-color: red;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+#Tidal{
+    margin-left: 20%;
+    width: 20%
+}
+.Tidal{
+    display: flex;
+    border-color: white;
+    border-top-color: pink;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+#Deezer{
+    margin-left: 20%;
+    width: 20%
+}
+.Deezer{
+    display: flex;
+    border-color: gold;
+    border-top-color: white;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+#Audiomack{
+    margin-left: 20%;
+    width: 20%
+}
+.Audiomack{
+    display: flex;
+    border-color: brown;
+    border-top-color: gold;
+    border-style: solid;
+    border-width: 5px;
+    background-color: aqua;
+    color: blue;
+}
+
+button{
+    color: blue;
+    padding-left: 20%;
+    
+}
+.test{
+    color: blue;
+}

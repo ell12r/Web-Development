@@ -1,0 +1,171 @@
+.MainNotes{
+    color: blue;
+    text-decoration: wavy;
+
+}
+.lists{
+    color: black;
+    text-shadow: blue ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+a{
+    color: red;
+    margin-top: 95%;
+    padding-left: 10px;
+   padding-right: 10px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: black;
+}
+
+.VariousHeadings{
+    color: blue;
+    text-align: center;
+    border-style: groove;
+    border-color: white;
+
+}
+.newbox{
+    border: 2px solid blue;
+    width: fit-content;
+    padding: 1em;
+    margin-right: 0%;
+    float: right;
+
+}
+
+.mybox{
+    border: 2px solid red;
+    width: fit-content;
+    padding: 1em;
+    float: right;
+    margin-top: 0%;
+
+}
+
+.container{
+width: 200px;
+border: 5px solid black;
+display: flex;
+flex-wrap: wrap;
+float: right;
+}
+
+.box{
+width: 100px;
+height: 100px;
+float: right;
+}
+
+.red{
+background-color: red;
+}
+
+.black{
+background-color: black;
+}
+
+.box1{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.box2{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+}
+.box3{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+}
+.firstRow{
+    display: flex;
+}
+.secRow{
+    display: flex;
+}
+.lastRow{
+    display: flex;
+    
+}
+.abox1{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.abox2{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+}
+.abox3{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+}
+.bbox1{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.bbox2{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+}
+.bbox3{
+    background-color: aqua;
+    border: 5px solid white;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: 72px;
+    text-align: center;
+    padding-top: 10px;
+}
