@@ -354,7 +354,10 @@ body {
 
 }
 .projects{
-    display: grid;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 24px;
+    row-gap: 20px;
 }
 #port{
     padding-top: 10%;
