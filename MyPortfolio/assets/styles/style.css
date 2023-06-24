@@ -351,8 +351,10 @@ body {
     padding-right: 6%;
     margin-left: 21%;
     text-decoration: none;
-    display: flex;
 
+}
+.projects{
+    display: grid;
 }
 #port{
     padding-top: 10%;
