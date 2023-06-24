@@ -1,26 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>This Is Me</title>
-
-        <link rel="stylesheet" href="assets/styles/style.css"/>
-    </head>
-        <body bgcolor="ghostwhite">
-            <header class="headerComponents">
-               <a href="index.html"><img id="me" src="assets/images/me.JPG" alt="My Picture"/></a>
-               <a href="about.html"><h7 id="about">About me</h7></a>
-               <a href="socials.html"><h7 id="socials">Reach out</h7></a>
-               <a href="projects.html"><h7 id="projects">Browse Projects</h7></a>
-            </header>
-            
-            
-                <h1 id="homeTitle">Home</h1>
-            <div class="home">
-                <p>Welcome to my Website, I'm very glad and delighted on officially completing my <em>portfolio website</em></p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gasoek+One&family=Pacifico&display=swap" rel="stylesheet">
+    <title>Elliott-Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <button class="collapse-button" onclick="toggleNavbar()"><./></button>
+    <div class="navbar">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#Serv">Services</a></li>
+              <li><a href="#port">Portfolio</a></li>
+              <li>Blog</li>
+              <li>Contact</li>
+            </ul>
+        <div class="followMe">
+            <h3>Follow Me</h3>
+            <div class="social-buttons">
+               <div> <a href="https://twitter.com/theTechjigger" target="_blank">
+                    <span class="fa-brands fa-twitter"></span>
+                </a></div>
+                <div><a href="https://wa.link/86ruxo" target="_blank">
+                    <span class="fa-brands fa-whatsapp"></span>
+                </a></div>
+                <div><a href="https://twitter.com/theTechjigger" target="_blank">
+                    <span class="fa-brands fa-linkedin"></span>
+                </a></div>
             </div>
+            <p id="Cright">All rights reserved 2023 ElStudios <i class="fa-sharp fa-regular fa-copyright"></i></p>
+        </div>
+    </div>
+         </nav>
+         <section class="Hero">
+            <p>Hello,</p>
+            <h1 id="zz">I'M <a id="Name">ELLIOTT AMPONSAH</a></h1>
+            <p>A freelance <a class="occupation">Web developer</a></p> <br>
+            <button class="hire_button">Hire Me</button> <br>
+            <button id="scroll"><a href="#about">\/</a></button>
+         </section>
+    </header>
+    <section class="about">
+<div class="photo-pc">
+      <div><h1 id="about"><a class="bar">|</a> About</h1>
+        <p>I am a freelance <a class="occupation">Web developer</a></p>
+        <p>Hi, my name is ELLIOTT RANSFORD AMPONSAH. I am a Web developer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere illo dolores nesciunt temporibus repudiandae saepe. Culpa odit ipsa laboriosam aspernatur ad sequi dolores eveniet sint ipsum asperiores aliquam aperiam tenetur consequatur, facilis repellat doloribus nemo ipsam obcaecati distinctio minus quod?</p>
+      </div>
+      <div><img id="my-photo" src="assets/images/me.JPG" alt="my Photo"></div>
+</div>
+       <div class="_2btn"> <button class="hire_button">Hire Me</button>
+        <button class="CV_button">Download CV</button>
+    </div>
 
-            <section class="footer">
-                <p>test</p>
-            </section>
-        </body>
+        <div id="about-contact">
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+                <strong>Phone</strong>
+                <p>+(233)503819638</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-envelope"></i>
+                <strong>Email</strong>
+                <p>admin@easylisten.tech</p>
+            </div>
+            
+        </div>
+
+    </section>
+    <h1 id="Serv"><a class="bar">|</a> Services</h1>
+    <section id="services">
+        
+        <div id="services-ind">
+            <div class="serv-box">
+                <i class="fa fa-desktop"></i>
+                <strong>Web Design</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex doloremque harum id nostrum. Nisi.</p>
+            </div>
+            <div class="serv-box">
+                <i class="fa fa-code"></i>
+                <strong>Web Dev.</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex doloremque harum id nostrum. Nisi.</p>
+            </div>
+            <div class="serv-box">
+                <i class="fa fa-layer-group"></i>
+                <strong>Graphic Design</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex doloremque harum id nostrum. Nisi.</p>
+            </div>
+            <div class="serv-box">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <strong>Mobile Apps</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex doloremque harum id nostrum. Nisi.</p>
+            </div>
+            <div class="serv-box">
+                <i class="fa fa-rocket"></i>
+                <strong>Branding</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex doloremque harum id nostrum. Nisi.</p>
+            </div>
+            <div class="serv-box">
+                <i class="fa fa-camera"></i>
+                <strong>Photography</strong>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex doloremque harum id nostrum. Nisi.</p>
+            </div>
+        </div>
+    </section>
+    <section class="Portfolio">
+        <h1 id="port"><a class="bar">|</a> Portfolio</h1>
+        <div class="projects">
+            <div>
+                <img class="projectImages" src="assets/images/Speedlink.png" alt="SpeedLink_Website">
+                <p><a class="bar">Speedlink</a><br> A website that automatically generates music links of artistes via various music platforms.</p>
+            </div>
+            <div>
+                <img class="projectImages" src="assets/images/flora.png" alt="Flora_website">
+                <p><a class="bar">Flora School</a><br> A simple but quality 4-page website for Flora School(Creche to JHS school located in Accra).</p>
+            </div>
+            <div>
+                <img class="projectImages" src="assets/images/speedtech.png" alt="SpeedLink_Website">
+                <p><a class="bar">Speedtech</a><br>Tech blog website Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, dolorem.</p>
+            </div>
+        </div>
+  
+    </section>
+    
+    <script src="assets/js/agency.js"></script>
+    <script src="https://kit.fontawesome.com/f0ff330778.js" crossorigin="anonymous"></script>
+    
+</body>
 </html>

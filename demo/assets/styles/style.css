@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+p{
+    color: white;
+}
+@media (max-width: 700px) and (orientation: portrait) {
+    p{
+        color: blue;
+        transition: ease-in;
+    }
+    
+}
+
+.box{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.grid{
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5);
+  margin-left: 0%
+  
+}
